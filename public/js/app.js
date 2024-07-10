@@ -1,7 +1,6 @@
-import $ from "jquery";
-
-import "datatables.net";
-import "datatables.net-dt/css/jquery.dataTables.css";
+window.$ = window.jQuery = require("jquery");
+require("datatables.net");
+require("datatables.net-dt/css/jquery.dataTables.css");
 
 $(document).ready(function () {
     // DataTable initialization
